@@ -3,5 +3,11 @@
 
 ##  
 
+## Recent Project Updates:
+#### The current breadboard prototype is wired with an LCD screen, push button, and power on/off switch. It successfully runs with a timer code. Link below:
+#### https://drive.google.com/drive/folders/1t0M0c-cClHCmyueLMgTcO8hawUu6y9SK
+
+##
+
 #### Project management application: GanttProject 3.1.3
 #### Circuit schematic design application: KiCad 6.0
