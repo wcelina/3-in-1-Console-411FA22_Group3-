@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ECE411 Fall 2022 Project Gantt Chart" company="" webLink="https://github.com/wcelina/411FA22_Group3/tree/main" view-date="2022-09-25" view-index="0" gantt-divider-location="380" resource-divider-location="300" version="3.1.3103" locale="en">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="199" order="0"/>
+        <field id="tpd4" name="Begin date" width="66" order="1"/>
+        <field id="tpd5" name="End date" width="56" order="2"/>
+        <field id="tpc0" name="Member" width="56" order="3"/>
+        <option id="taskLabelUp" value="coordinator"/>
+        <option id="taskLabelDown" value=""/>
+        <option id="taskLabelLeft" value="length"/>
+        <option id="taskLabelRight" value="name"/>
+        <option id="color.recent">
+            <![CDATA[#999999 #660066 #0066cc #666666 #009999 #990000 #006699 #000099 #003399 #99ccff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="87" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Member" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="6" name="Research and Discussions" color="#999999" meeting="false" start="2022-10-06" duration="5" complete="0" thirdDate="2022-10-06" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="All"/>
+        </task>
+        <task id="13" name="Project Selection" color="#999999" meeting="false" start="2022-10-11" duration="2" complete="0" thirdDate="2022-10-13" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="All"/>
+        </task>
+        <task id="16" name="Project design specifications" color="#666666" meeting="false" start="2022-10-13" duration="7" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="All"/>
+        </task>
+        <task id="17" name="Buy/order components" color="#666666" meeting="false" start="2022-10-20" duration="7" complete="0" thirdDate="2022-10-20" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Dima"/>
+        </task>
+        <task id="19" name="Preliminary schematic" color="#0066cc" meeting="false" start="2022-10-20" duration="7" complete="0" thirdDate="2022-10-21" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Huibo"/>
+        </task>
+        <task id="24" name="Breadboard Prototype" color="#0066cc" meeting="false" start="2022-10-27" duration="7" complete="0" thirdDate="2022-10-15" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Alex"/>
+        </task>
+        <task id="25" name="KiCad schematic" color="#0066cc" meeting="false" start="2022-10-27" duration="7" complete="0" thirdDate="2022-10-28" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Huibo"/>
+        </task>
+        <task id="23" name="CODE: Counter mode" color="#990000" meeting="false" start="2022-10-27" duration="7" complete="0" thirdDate="2022-10-27" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Celina"/>
+        </task>
+        <task id="26" name="CODE: Timer mode" color="#990000" meeting="false" start="2022-11-03" duration="7" complete="0" thirdDate="2022-11-04" thirdDate-constraint="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Dima"/>
+        </task>
+        <task id="29" name="Order PCB board" color="#0066cc" meeting="false" start="2022-11-03" duration="7" complete="0" thirdDate="2022-10-29" thirdDate-constraint="0" priority="4" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Alex"/>
+        </task>
+        <task id="30" name="Assemble components" color="#0066cc" meeting="false" start="2022-11-10" duration="7" complete="0" thirdDate="2022-11-17" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="H &amp; A"/>
+        </task>
+        <task id="28" name="CODE: Game Mode" color="#990000" meeting="false" start="2022-11-10" duration="7" complete="0" thirdDate="2022-11-09" thirdDate-constraint="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Celina"/>
+        </task>
+        <task id="33" name="Debug and finalize code" color="#990000" meeting="false" start="2022-11-17" duration="7" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="D &amp; C"/>
+        </task>
+        <task id="31" name="ALL: Test and Debug Device" color="#0066cc" meeting="false" start="2022-11-24" duration="7" complete="0" thirdDate="2022-11-09" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="All"/>
+        </task>
+        <task id="32" name="Presentation and Demo Prep" color="#660066" meeting="false" start="2022-12-02" duration="7" complete="0" thirdDate="2022-11-20" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="All"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Alex Kim" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Huibo Yu" function="Default:1" contacts="" phone=""/>
+        <resource id="2" name="Celina Wong" function="Default:1" contacts="" phone=""/>
+        <resource id="3" name="Dmytro Prystupa" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="6" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
