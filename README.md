@@ -3,5 +3,5 @@
 
 ##  
 
-## Project management application: GanttProject 3.1.3
-## Circuit schematic design application: KiCad 6.0
+#### Project management application: GanttProject 3.1.3
+#### Circuit schematic design application: KiCad 6.0
