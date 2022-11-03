@@ -2,4 +2,5 @@
 #### When coding files are complete, they will be pushed to [main].
 
 
-### Project management application: GanttProject
+### Project management application: GanttProject 3.1.3
+### Circuit schematic design application: KiCad 6.0
