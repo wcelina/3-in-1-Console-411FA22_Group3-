@@ -3,7 +3,7 @@
 
    Derived from:
    https://create.arduino.cc/projecthub/Shubham_Desai/flappy-bird-game-using-arduino-lcd-display-8bdce8
-
+   Ⓒ https://creativecommons.org/licenses/by-nc-nd/4.0/
 */
 
 #include <LiquidCrystal_I2C.h>
