@@ -572,7 +572,7 @@
   )
 
   (gr_rect (start 106.172 53.34) (end 181.864 114.808) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp e8bc2822-0df3-4b19-a666-56fde84db4e9))
-  (gr_text "ECE 411 Team 3 2022/11/15 V1\nAlex Kim\nCelina Wang\nDmytro Prystupa\nHuibo Yu" (at 157.226 94.234) (layer "F.SilkS") (tstamp 8d5ea137-4fce-42e0-92ae-811770de8960)
+  (gr_text "ECE 411 Team 3 2022/11/15 V1\nAlex Kim\nCelina Wong\nDmytro Prystupa\nHuibo Yu" (at 157.226 94.234) (layer "F.SilkS") (tstamp 8d5ea137-4fce-42e0-92ae-811770de8960)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
