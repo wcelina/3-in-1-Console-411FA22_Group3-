@@ -8,6 +8,9 @@
 #
 ## Recent Project Updates:
 
+#### 12/8/22 - Presentation slides:
+#### https://docs.google.com/presentation/d/1yn8I8TeqEF4ywxcgW0SFzS9HUh2eWH4x9auOoaWZxTw/edit?usp=sharing
+
 #### 12/6/22 - All components and PCB are placed in a 3D printed compartment. Link of Flappy Bird demo:
 #### https://drive.google.com/file/d/1Yfay8kJElGX3HygGRCzuhIqe8Dfigz_g/view?usp=sharing
 
