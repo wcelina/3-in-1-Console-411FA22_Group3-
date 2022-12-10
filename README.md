@@ -1,3 +1,7 @@
+
+## 3-in-1 Console (Stopwatch, Counter, and Flappy Bird)
+##### TLDR; On power up, the console should direct the user to the menu screen, where they can turn the knob to vary between the three modes and select the mode by clicking the rotary encoder. 
+
 #
 ## Requirements:
 ##### Project management application - GanttProject 3.1.3
